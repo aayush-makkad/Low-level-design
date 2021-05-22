@@ -1,20 +1,17 @@
-package test;
-
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static main.DesignHashSet.*;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+
 class DesignHashSetTest {
 
-    private MyHashSet myHashSet;
+    private DesignHashSet.MyHashSet myHashSet;
 
     @BeforeEach
     public void setup() {
-        myHashSet = new MyHashSet();
+        myHashSet = new DesignHashSet.MyHashSet();
     }
 
     @Test
